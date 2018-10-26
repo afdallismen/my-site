@@ -1,0 +1,31 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "scripts": {
+    "dev": "nextein",
+    "export": "nextein build && nextein export"
+  },
+  "keywords": [],
+  "author": "Afdal Lismen <afdal.lismen@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bulma": "^0.7.2",
+    "next": "^7.0.2",
+    "nextein": "^2.0.0",
+    "node-sass": "^4.9.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
